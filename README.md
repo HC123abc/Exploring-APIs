@@ -19,9 +19,7 @@ Main page:
 Generating recipe page:
 
 - Upon clicking the "Generate Recipe" button, the application will retrieve the current time from the user's device using a relevant Java package (have to research this). This information will help in distinguishing for breakfast, lunch, or dinner. The application will then make an API call to either ChatGPT or Google or Cohere to fetch a recipe. The retrieved recipe will be accompanied by a concise description of the dish, calories, and hopefully, an image for visual reference (if this is easy to do).
-- Users will have the choice to either proceed with cooking the suggested recipe by clicking the "Cook This" button or they can opt to reroll for a different suggestion. If they choose to proceed, they will be directed to the detailed recipe page. Here, they will find a
-
-list of required ingredients and step-by-step instructions. A star button will be positioned at the bottom right corner, allowing users to save recipes in their favorites collection for future reference.
+- Users will have the choice to either proceed with cooking the suggested recipe by clicking the "Cook This" button or they can opt to reroll for a different suggestion. If they choose to proceed, they will be directed to the detailed recipe page. Here, they will find alist of required ingredients and step-by-step instructions. A star button will be positioned at the bottom right corner, allowing users to save recipes in their favorites collection for future reference.
 
 Buying Ingredients:
 
