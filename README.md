@@ -13,17 +13,18 @@ Login:
 
 Main page:
 
-- The application will have a straightforward graphical user interface (GUI). It will show two prominent buttons: one for generating a random recipe and another for accessing their saved favorites. The favorite recipes will be neatly categorized into breakfast, lunch, and dinner sections for easy navigation.
+- The application will have a straightforward graphical user interface (GUI). It will show two prominent buttons: one for generating a random recipe and another for accessing their saved favorites. The favorite recipes will be categorized into breakfast, lunch, and dinner sections for easy navigation.
+- Other buttons includes Shopping which will send the user to a page where we organize and compare prices of ingredients of 4 (many more) supermarkets.
 - There will be a daily calorie count: calorie intake (information from the recipe generated)\ total daily calories
 
 Generating recipe page:
 
-- Upon clicking the "Generate Recipe" button, the application will retrieve the current time from the user's device using a relevant Java package (have to research this). This information will help in distinguishing for breakfast, lunch, or dinner. The application will then make an API call to either ChatGPT or Google or Cohere to fetch a recipe. The retrieved recipe will be accompanied by a concise description of the dish, calories, and hopefully, an image for visual reference (if this is easy to do).
+- Upon clicking the "Generate Recipe" button, the application will retrieve the current time from the user's device using a relevant Java package (have to research this). This information will help in distinguishing for breakfast, lunch, or dinner. The application will then make an API call to either ChatGPT or a website with recipes to fetch a recipe. Then retrieved recipe will be shown to the user by a concise description of the dish, calories, and hopefully, an image for visual reference (if this is easy to do).
 - Users will have the choice to either proceed with cooking the suggested recipe by clicking the "Cook This" button, or they can opt to re-roll for a different suggestion. If they choose to proceed, they will be directed to the detailed recipe page. Here, they will find a list of required ingredients and step-by-step instructions. A star button will be positioned in the bottom right corner, allowing users to save recipes in their favorites collection for future reference.
 
 Buying Ingredients:
 
-- We will have a section that will show the prices of ingredients from 4 different supermarkets, so users can compare and buy the best price.
+- We will have a section that will show the prices of ingredients from 4 different supermarkets, so users can compare and buy at the best price.
 
 **Documentation for an API**
 
