@@ -19,7 +19,7 @@ Main page:
 Generating recipe page:
 
 - Upon clicking the "Generate Recipe" button, the application will retrieve the current time from the user's device using a relevant Java package (have to research this). This information will help in distinguishing for breakfast, lunch, or dinner. The application will then make an API call to either ChatGPT or Google or Cohere to fetch a recipe. The retrieved recipe will be accompanied by a concise description of the dish, calories, and hopefully, an image for visual reference (if this is easy to do).
-- Users will have the choice to either proceed with cooking the suggested recipe by clicking the "Cook This" button or they can opt to reroll for a different suggestion. If they choose to proceed, they will be directed to the detailed recipe page. Here, they will find alist of required ingredients and step-by-step instructions. A star button will be positioned at the bottom right corner, allowing users to save recipes in their favorites collection for future reference.
+- Users will have the choice to either proceed with cooking the suggested recipe by clicking the "Cook This" button, or they can opt to re-roll for a different suggestion. If they choose to proceed, they will be directed to the detailed recipe page. Here, they will find a list of required ingredients and step-by-step instructions. A star button will be positioned in the bottom right corner, allowing users to save recipes in their favorites collection for future reference.
 
 Buying Ingredients:
 
@@ -29,12 +29,15 @@ Buying Ingredients:
 
 [the meal db (the api we are using)](https://www.themealdb.com/api.php)
 
-**screenshot of using a tool to try out the API**
+**Screenshot of using a tool to try out the API**
 
 ![hopscotch api usage](apiExampleOnline.png)
 
-**example output of running your Java code [to do]**
+**Example output of running your Java code**
 
-**list of any technical problems blocking progress:**
+![Example Output](exampleoutput.png)
+The output was too long to capture in one screenshot. Basically prints out the information we got from the API call. Data is represented in JSON.
 
-We can foresee potential future challenges. For example, what if the API calls don't work due to issues on the provider's side, such as ChatGPT or Cohere being down? Additionally, how can we efficiently extract and condense data to present to users? We aim to avoid presenting them with lengthy paragraphs from ChatGPT and instead focus on providing the essential information. Parsing raw data from API calls and translating it to data we need and want to convey may be difficult. We also need to figure out a good way to store data.
+**List of any technical problems blocking progress:**
+
+We can foresee potential future challenges. For example, what if the API calls don't work due to issues on the provider's side, such as the website being down? Additionally, how can we efficiently extract and condense data to present to users? Parsing raw data from API calls and translating it to data we need and want to convey may be difficult. We also need to figure out a good way to store data. 
