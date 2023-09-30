@@ -25,9 +25,13 @@ Buying Ingredients:
 
 - We will have a section that will show the prices of ingredients from 4 different supermarkets, so users can compare and buy the best price.
 
-**Documentation for an API [to do]**
+**Documentation for an API**
 
-**screenshot of using a tool to try out the API [to do]**
+[the meal db (the api we are using)](https://www.themealdb.com/api.php)
+
+**screenshot of using a tool to try out the API**
+
+![hopscotch api usage](apiExampleOnline.png)
 
 **example output of running your Java code [to do]**
 
